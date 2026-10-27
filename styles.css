@@ -154,8 +154,8 @@ a {
   grid-template-columns: minmax(0, 1fr) minmax(260px, 360px);
   gap: clamp(2rem, 5vw, 4rem);
   align-items: end;
-  min-height: calc(100vh - 78px);
-  padding: clamp(4rem, 8vw, 7rem) clamp(1rem, 5vw, 5rem) clamp(3rem, 6vw, 5rem);
+  min-height: 50vh;
+  padding: clamp(2rem, 4vw, 3.5rem) clamp(1rem, 5vw, 5rem) clamp(1.5rem, 3vw, 2.5rem);
   overflow: hidden;
   background:
     linear-gradient(115deg, rgba(11, 12, 15, 0.92), rgba(11, 12, 15, 0.78) 52%, rgba(168, 32, 32, 0.82)),
@@ -210,13 +210,13 @@ a {
 
 .hero h1 {
   max-width: 880px;
-  font-size: clamp(2.7rem, 7.2vw, 6.4rem);
+  font-size: clamp(2.25rem, 5.4vw, 4.8rem);
   line-height: 0.98;
 }
 
 .hero-content > p:not(.eyebrow) {
   max-width: 650px;
-  margin: 1.6rem 0 2rem;
+  margin: 1rem 0 1.25rem;
   color: rgba(255, 250, 240, 0.84);
   font-size: clamp(1rem, 1.5vw, 1.18rem);
 }
@@ -275,7 +275,7 @@ a {
 }
 
 .hero-panel > div {
-  padding: 1.35rem;
+  padding: 0.9rem 1rem;
   border-bottom: 1px solid rgba(255, 250, 240, 0.16);
 }
 
